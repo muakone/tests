@@ -8,3 +8,30 @@ img {
     font-size: large;
     font-family:cursive;
 }
+
+.b {
+    text-align: center;
+    width: 400px;
+}
+
+.c {
+    color: blue;
+}
+
+div.btn {
+    margin: 40px;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 20pt;
+    padding: 30px;
+    width: 150px;
+
+    border-radius: 30px;
+    box-shadow: darkgray 10px 10px 10px ;
+    transition: 1s;
+}
+.btn:hover {
+    background-color: deepskyblue;
+    box-shadow: gray 15px 15px 15px;
+    transition: 2s;
+}
